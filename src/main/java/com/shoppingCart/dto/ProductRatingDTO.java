@@ -1,0 +1,13 @@
+package com.shoppingCart.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ProductRatingDTO {
+    private float rate;
+    private Integer count;
+}
